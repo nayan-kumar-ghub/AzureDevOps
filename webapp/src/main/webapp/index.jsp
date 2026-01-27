@@ -1,3 +1,3 @@
-<h1> RahulShettyAcademy.com Learning</h1>
-<h2> Learn QA Automation tools + Devops Tools CI/CD pipelines in course from Scratch</h2>
-<h2> Good Luck and we are almost done with the course.Thankyou</h2>
+<h1> Welcome to AzureDevOps Deployment Dashboard</h1>
+<h2> You have now deployed a Java based application on your own Azure DevOps Infra</h2>
+<h2> Monitor your deployment status below</h2>

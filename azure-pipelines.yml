@@ -25,3 +25,9 @@ steps:
   inputs:
     PathtoPublish: 'webapp/target'
     ArtifactName: 'warfiledrop'
+    
+- script: |
+    echo "Deploying WAR file..."
+    sudo cp webapp/target/webapp.war /opt/tomcat/webapps/
+    sudo systemctl restart tomcat
+  displayName: "Deploy to Local Tomcat"
